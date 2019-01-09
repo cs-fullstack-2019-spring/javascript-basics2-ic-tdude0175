@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taxes and Balances</title>
+</head>
+<body>
+
+<script>
+    var tax_rate = 0.0925;
+    var name = prompt("What is your name?");
+    console.log("Good Afternoon!" + name);
+    var balance = prompt("What is your current balance?");
+    console.log("Heres $50, use it wisely");
+    console.log(parseInt(balance) + 50);
+    var num1 = prompt("what's your favorite number?");
+    var num2 = prompt("what is your least favorite number?");
+    console.log(parseInt(num1) + parseInt(num2) +" is those added together!");
+    var price = prompt("how much does that book cost?");
+    console.log("after tax the total comes to : " + parseInt(price) + (tax_rate * parseInt(price)) );
+
+
+
+</script>
+
+</body>
+</html>
